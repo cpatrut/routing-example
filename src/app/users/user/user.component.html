@@ -1,0 +1,11 @@
+<p>User with {{user.id}} loaded.<strong>  {{user.activated ? 'activated':''}}</strong>
+</p>
+<p>User name is {{user.name}}</p>
+
+
+<hr/>
+
+<a [routerLink]="['/users',10,'Anna']">Anna,10</a>
+
+
+<button class="btn btn-primary" (click)="onActivate()">Activate it!</button>
